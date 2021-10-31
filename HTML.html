@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Formulaire CV </title>
+</head>
+  <body>
+    <h2> Remplissez vos informations : </h2>
+<form method="post" action="traitement.php">
+   <p>
+       <label for="Nom"><strong>Nom</strong> <br/> </label>  <input type="text" name="Nom" id="Nom" />
+       <br />
+       <br />
+       <label for="Prénom"><strong>Prénom :</strong> <br/></label>
+       <input type="text" name="Prénom" id="Prénom" 
+        />
+       
+       <br />
+       <br />
+       <label for="Age"><strong>Age:</strong> <br/></label>
+       <input type="number" name="Age" id="Age"  />
+       <br />
+       <br />
+       <label for="Adresse"><strong>Adresse:</strong><br/></label>
+       <input type="text" name="Adresse" id="Adresse" />
+       <br />
+       <br />
+       <label for="CV"><strong>Titre du CV:</strong><br/></label>
+       <input type="CV" name="Prénom" id="CV"    />
+       <br />
+       <br />
+       <label><strong> Description de l'Objectif professionnel :</strong></label><br />
+       <textarea name="obj" id="obj" rows="8" cols="40"></textarea>
+       <br />
+       <br />
+       <label> <strong>Section de Formation et diplôme :</strong></label><br />
+       <textarea name="sect1" id="sect1"  placeholder="Ex :
+       1-baccalauréat en sc Math 
+       2- 2ans en classe prepa
+       3-Ecole Mohammadia des ingénieur" rows="6" cols="40" ></textarea>
+       <br />
+       <br />
+       <label> <strong>Section de compétences techniques:</strong></label><br />
+       <textarea name="sec2" id="sect2" placeholder="exp :
+       1-Maitrise du langage C
+       2-...
+       3-..." rows="6" cols="40"></textarea>
+       <br />
+       <br />
+       <label><strong> Section de compétences :</strong></label><br />
+       <textarea name="sect3" id="sect3"placeholder="exp:
+       1-...
+       2-...
+       3-..." rows="6" cols="40"></textarea>
+</p>
+<input type="submit" value="Envoyer" />
+
+  
+</form>
+
+</body>
+</html>
